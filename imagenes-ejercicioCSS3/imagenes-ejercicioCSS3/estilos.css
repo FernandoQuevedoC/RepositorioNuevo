@@ -1,0 +1,122 @@
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+header {
+    background: #000000;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav ul li {
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+section {
+    background-image: url("bici.png");
+    height: 500px;
+    background-size: cover;
+}
+
+
+
+.buscador {
+    float: right;
+    width: 120px;
+    height: 30px;
+    margin: 10px 5px 0 0;
+    background: #000000;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.seccion1 {
+    position: relative;
+}
+
+.seccion1 div{
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+}
+
+.boton {
+    font-size: 12px;
+    background: #ffffff;
+    height: 30px;
+    width: 100px;
+    font-weight: 600;
+    border: none;
+
+}
+
+footer{
+    background: #303130;
+    color: white;
+}
+
+.redes img{
+width: 30px;
+}
+
+.registro h2 {
+    margin: 0;
+}
+
+
+
+.registro p {
+    display: inline-block;
+    width: 500;
+    color: silver;
+    
+}
+
+.registro {
+
+    text-align: center;
+    padding: 40px 0 20px;
+
+}
+
+#logo {
+    width: 100px;
+}
+
+#titulo, #subtitulo {
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0;
+}
+
+#titulo {
+    font-size: 40px;
+}
+
+#subtitulo {
+    font-size: 24px;
+    margin: 12px 0 20px;
+}
+
+#email {
+    background: inherit;
+    width: 400px;
+    height: 25px;
+    border: 1px solid #5e5f5f;
+    padding: 5px 10px;
+}
+
